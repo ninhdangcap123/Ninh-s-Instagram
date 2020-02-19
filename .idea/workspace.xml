@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa4bcde6-b211-485f-bab2-1161a32b7e6c" name="Default Changelist" comment="" />
+    <list default="true" id="aa4bcde6-b211-485f-bab2-1161a32b7e6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Notifications/Invoice.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_02_18_162243_create_notifications_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/AutoLogout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/howtorunthiscode.txt" beforeDir="false" afterPath="$PROJECT_DIR$/howtorunthiscode.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +28,16 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="Instagram" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -117,12 +140,16 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1WORI3rjq1oYgwl4cGEW3bdsG5F" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/post" />
@@ -131,17 +158,20 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views/post" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/views/posts" />
       <recent name="$PROJECT_DIR$/resources/views/profiles" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/post" />
+    </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.phpunit.xml">
+  <component name="RunManager" selected="PHP Script.User.php">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+    <configuration name="User.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/app/User.php">
       <method v="2" />
     </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -166,6 +196,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.User.php" />
         <item itemvalue="npm.watch" />
         <item itemvalue="npm.dev" />
       </list>
@@ -209,14 +240,35 @@
       <workItem from="1580910935181" duration="678000" />
       <workItem from="1580911765162" duration="3086000" />
       <workItem from="1580996886145" duration="3106000" />
-      <workItem from="1581000389765" duration="7694000" />
+      <workItem from="1581000389765" duration="9473000" />
+      <workItem from="1581089032070" duration="2389000" />
+      <workItem from="1581093222953" duration="17000" />
+      <workItem from="1581687194909" duration="613000" />
+      <workItem from="1581947823380" duration="778000" />
+      <workItem from="1582039372466" duration="4953000" />
+      <workItem from="1582119777525" duration="5218000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="556" y="58" width="800" height="677" key="#Notifications" timestamp="1582042549094">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="556" y="58" width="800" height="677" key="#Notifications/0.27.1366.741@0.27.1366.741" timestamp="1582042549094" />
+    <state x="717" y="79" width="604" height="634" key="#User.php" timestamp="1582043401048">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="717" y="79" width="604" height="634" key="#User.php/0.27.1366.741@0.27.1366.741" timestamp="1582043401048" />
+    <state x="282" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582124350186">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="282" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1582124350186" />
     <state x="360" y="201" width="637" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579023409214">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -233,10 +285,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="224" y="174" width="908" height="445" key="EditFileWatcherDialog/0.27.1366.741@0.27.1366.741" timestamp="1579021372340" />
-    <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1579018605646">
+    <state x="466" y="154" width="468" height="484" key="FileChooserDialogImpl" timestamp="1581948591153">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1579018605646" />
+    <state x="466" y="154" width="468" height="484" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1581948591153" />
     <state width="1320" height="181" key="GridCell.Tab.0.bottom" timestamp="1580743122530">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -269,9 +321,9 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1580068755126" />
-    <state x="400" y="304" width="556" height="184" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1580911837065">
+    <state x="400" y="304" width="556" height="184" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1582042656854">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="400" y="304" width="556" height="184" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.27.1366.741@0.27.1366.741" timestamp="1580911837065" />
+    <state x="400" y="304" width="556" height="184" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.27.1366.741@0.27.1366.741" timestamp="1582042656854" />
   </component>
 </project>

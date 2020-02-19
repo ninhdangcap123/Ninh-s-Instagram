@@ -1,0 +1,31 @@
+download or clone the project code from GitHub
+
+go to the folder of the application using the terminal
+
+make sure to have composer, php , apache already install on your computer
+
+Copy .env.example file to .env file on root folder ( type copy .env.example .env if using command prompt Windows
+ or cp .env.example .env if using terminal Ubuntu)
+
+ open phpMyadmin and create a new database
+
+ open .env file and change the database credentials(
+ DB_DATABASE="yourdatabasename"
+ DB_USERNAME="yourusername"
+ DB_PASSWORD="yourpassword")
+
+ Run php artisan key:generate
+
+ enter https://mailtrap.io/ on your browser and signup for a new account
+
+ go to the demo inbox to find the information about username and password
+ open .env file and change the mail credentials(
+ MAIL_PORT="yourport"
+ MAIL_USERNAME="yourusername"
+ MAIL_PASSWORD="yourpassword")
+
+Run php artisan migrate
+Run php artisan serve
+
+
+

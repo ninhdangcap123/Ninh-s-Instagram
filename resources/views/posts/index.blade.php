@@ -1,12 +1,14 @@
 @extends('layouts.app')
 
 @section('content')
+    <div class="font-weight-bold text-center "> New posts</div>
     <div class="container">
         @foreach($posts as $post)
             <div class="row pt-4">
                 <div class="col-6 offset-3">
                     <div class="pr-3">
-                        <img src="{{ $post->user->profile->profileImage() }}" class="rounded-circle w-100 " style="max-width: 60px;">
+                        <img src="{{ $post->user->profile->profileImage() }}" class="rounded-circle w-100 "
+                             style="max-width: 60px;">
                         <span class="font-weight-bold">
                             <a href="/profile/{{ $post->user->id }}">
                                 <span class="text-dark">{{ $post->user->username }}</span>

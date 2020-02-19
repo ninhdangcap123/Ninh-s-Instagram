@@ -1,4 +1,3 @@
-
 @extends('layouts.app')
 
 @section('content')
@@ -11,7 +10,8 @@
                 <div>
                     <div class="d-flex align-items-center">
                         <div class="pr-3">
-                            <img src="{{ $post->user->profile->profileImage() }}" class="rounded-circle w-100" style="max-width: 60px;">
+                            <img src="{{ $post->user->profile->profileImage() }}" class="rounded-circle w-100"
+                                 style="max-width: 60px;">
                         </div>
                         <div>
                             <div class="font-weight-bold">
@@ -19,7 +19,8 @@
                                     <span class="text-dark">{{ $post->user->username }}</span>
                                 </a>
 
-                                <a href="/profile/{{ $post->user->id }}" class="pl-3" style="border-left: 2px solid #000000;" >Follow</a>
+                                <a href="/profile/{{ $post->user->id }}" class="pl-3"
+                                   style="border-left: 2px solid #000000;">Follow</a>
                             </div>
                         </div>
                     </div>

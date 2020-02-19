@@ -21,6 +21,14 @@
 </head>
 <body>
     <div id="app">
+
+        @auth
+            <auto-logout>
+
+
+            </auto-logout>
+        @endauth
+
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand d-flex" href="{{ url('/') }}">
