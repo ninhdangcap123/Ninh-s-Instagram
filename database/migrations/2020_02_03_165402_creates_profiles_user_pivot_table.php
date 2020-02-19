@@ -13,9 +13,9 @@ class CreatesProfilesUserPivotTable extends Migration
      */
     public function up()
     {
-        Schema::create('profiles_user', function (Blueprint $table) {
+        Schema::create('profile_user', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->unsignedBigInteger('profiles_id');
+            $table->unsignedBigInteger('profile_id');
             $table->unsignedBigInteger('user_id');
             $table->timestamps();
         });
@@ -28,6 +28,6 @@ class CreatesProfilesUserPivotTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('profiles_user');
+        Schema::dropIfExists('profile_user');
     }
 }
