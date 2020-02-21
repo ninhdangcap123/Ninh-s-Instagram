@@ -17,12 +17,14 @@
                         <follow-button user-id="{{ $user->id }}" follows="{{ $follows }}"></follow-button>
 
                     </div>
+                    @can('update', $user->profile)
                     <a href="/p/create">Add New Post</a>
-
+                    @endcan
                 </div>
+                @can('update', $user->profile)
 
                 <a href="/profile/{{ $user->id }}/edit"> Edit Profile</a>
-
+                @endcan
 
                 <div class="d-flex">
                     <div class="pr-5"><strong>{{ $postCount }}</strong> posts</div>

@@ -2,18 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa4bcde6-b211-485f-bab2-1161a32b7e6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Notifications/Invoice.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_02_18_162243_create_notifications_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/AutoLogout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/LikesController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/comments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_02_20_153453_creates_post_user_pivot_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/LikeButton.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/comments/_comment.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/comments/_form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/comments/components/comments.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Instagram.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Instagram.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/What I have learned" beforeDir="false" afterPath="$PROJECT_DIR$/What I have learned" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/howtorunthiscode.txt" beforeDir="false" afterPath="$PROJECT_DIR$/howtorunthiscode.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,6 +149,9 @@
       <path value="$PROJECT_DIR$/vendor/phpseclib/bcmath_compat" />
       <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
       <path value="$PROJECT_DIR$/vendor/moontoast/math" />
+      <path value="$PROJECT_DIR$/vendor/laravelista/comments" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-honeypot" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
     </include_path>
   </component>
   <component name="ProjectId" id="1WORI3rjq1oYgwl4cGEW3bdsG5F" />
@@ -144,9 +159,11 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
@@ -158,12 +175,12 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/post" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/views/posts" />
       <recent name="$PROJECT_DIR$/resources/views/profiles" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views/post" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Script.User.php">
@@ -246,7 +263,10 @@
       <workItem from="1581687194909" duration="613000" />
       <workItem from="1581947823380" duration="778000" />
       <workItem from="1582039372466" duration="4953000" />
-      <workItem from="1582119777525" duration="5218000" />
+      <workItem from="1582119777525" duration="11413000" />
+      <workItem from="1582206794414" duration="455000" />
+      <workItem from="1582208000851" duration="8566000" />
+      <workItem from="1582291473014" duration="3222000" />
     </task>
     <servers />
   </component>
@@ -269,18 +289,23 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="282" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1582124350186" />
-    <state x="360" y="201" width="637" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579023409214">
+    <state x="360" y="201" width="816" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582125928447">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="360" y="201" width="637" height="390" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741@0.27.1366.741" timestamp="1579023409214" />
+    <state x="360" y="201" width="816" height="390" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741@0.27.1366.741" timestamp="1582125928447" />
     <state x="702" y="125" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580422577905">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="702" y="125" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.27.1366.741@0.27.1366.741" timestamp="1580422577905" />
-    <state x="416" y="154" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1581001699633">
+    <state x="264" y="27" width="818" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582130170680">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
+    <state x="264" y="27" width="818" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1366.741@0.27.1366.741" timestamp="1582130170680" />
+    <state x="585" y="466" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1582211263055">
+      <screen x="0" y="339" width="1920" height="741" />
+    </state>
     <state x="416" y="154" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1366.741@0.27.1366.741" timestamp="1581001699633" />
+    <state x="585" y="466" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.312.1366.768/0.339.1920.741@0.339.1920.741" timestamp="1582211263055" />
     <state x="224" y="174" width="908" height="445" key="EditFileWatcherDialog" timestamp="1579021372340">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

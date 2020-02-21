@@ -1,0 +1,32 @@
+What is Laravel?
+Installing Laravel
+Php artisan
+Generating login flow with php artisan ui vue --auth
+Setting Up the Front End with Node and NPM
+Migrations and Setting Up mySQL
+Designing the UI from Instagram
+Adding Username to the Registration Flow
+Creating the Controllers
+RESTful Resource Controller
+Passing Data to the View
+Adding the Model, Migration and Table
+Adding Eloquent Relationships
+Fetching the Record From The Database
+Adding Posts to the Database & Many To Many Relationship
+Creating Through a Relationship
+Uploading/Saving the Image to the Project
+Resizing Images with Intervention Image PHP Library
+Route Model Binding
+Editing Funtion
+Restricting/Authorizing Actions with a Model Policy
+Automatically Creating A Profile Using Model Events
+Follow/Unfollow , Auto logout Using a Vue.js Component
+Many To Many Relationship
+Laravel Telescope
+Showing Posts from Profiles The User Is Following
+Pagination with Eloquent
+Make Use of Cache for Expensive Query
+Sending Emails to New Registered Users
+Adding Like&Comments function to Post
+Define authentication to users
+Enable users to post many posts at a time

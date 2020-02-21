@@ -19,6 +19,8 @@ class PostsController extends Controller
 
     public function index()
     {
+
+
         $users = auth()->user()->following()->pluck('profiles.user_id');
 
         $posts = Post::whereIn('user_id', $users)->with('user')->latest()->paginate(3);
@@ -47,10 +49,11 @@ class PostsController extends Controller
         return redirect('/profile/' . auth()->user()->id);
     }
 
-    public function show(\App\Post $post)
+    public function show(Post $post)
     {
+        $likes = (auth()->user()) ? auth()->user()->liking->contains($post->user->id) : false;
 
-        return view('posts.show', compact('post'));
+        return view('posts.show', compact('post','likes'));
 
     }
 }

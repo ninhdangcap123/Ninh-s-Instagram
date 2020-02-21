@@ -14,7 +14,8 @@
         "laravel/framework": "^6.2",
         "laravel/telescope": "^2.1",
         "laravel/tinker": "^2.0",
-        "laravel/ui": "^1.1"
+        "laravel/ui": "^1.1",
+        "laravelista/comments": "^3.3"
     },
     "require-dev": {
         "facade/ignition": "^1.4",

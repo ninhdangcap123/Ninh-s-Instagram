@@ -25,6 +25,8 @@
                         </div>
                     </div>
 
+
+
                     <hr>
 
                     <p>
@@ -34,6 +36,20 @@
                         </a>
                     </span> {{ $post->caption }}
                     </p>
+
+                    <hr>
+
+                    <div class="d-flex">
+                        <div class="pr-5 pl-5"><strong>{{ $post->likers->count() }} Likes </strong></div>
+                        <div class="pl-5 "><strong>{{ $post->comments->count() }} comments</strong></div>
+                    </div>
+
+                    <like-button user-id="{{ $post->user->id }}" likes="{{ $likes }}"></like-button>
+                    <hr>
+                    <div>
+                        @comments(['model' => $post])
+                    </div>
+
                 </div>
             </div>
         </div>

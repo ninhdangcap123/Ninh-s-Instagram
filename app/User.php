@@ -7,10 +7,11 @@ use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Support\Facades\Mail;
+use Laravelista\Comments\Commenter;
 
 class User extends Authenticatable
 {
-    use Notifiable;
+    use Notifiable, Commenter;
 
     /**
      * The attributes that are mass assignable.
@@ -54,7 +55,7 @@ class User extends Authenticatable
 
     public function profile()
     {
-        return $this->hasOne(Profiles::class);
+        return $this->hasOne(Profile::class);
     }
 
     public function posts()
@@ -64,6 +65,12 @@ class User extends Authenticatable
 
     public function following()
     {
-        return $this->belongsToMany(Profiles::class);
+        return $this->belongsToMany(Profile::class);
+    }
+
+    public function liking()
+    {
+        return $this->belongsToMany(Post::class);
+
     }
 }

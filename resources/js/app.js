@@ -21,6 +21,7 @@ window.Vue = require('vue');
 
 Vue.component('follow-button', require('./components/FollowButton.vue').default);
 Vue.component('auto-logout', require('./components/AutoLogout.vue').default);
+Vue.component('like-button', require('./components/LikeButton.vue').default);
 
 
 /**

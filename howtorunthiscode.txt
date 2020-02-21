@@ -2,7 +2,7 @@ download or clone the project code from GitHub
 
 go to the folder of the application using the terminal
 
-make sure to have composer, php , apache already install on your computer
+make sure to have composer, php , apache already install and updated on your computer
 
 Copy .env.example file to .env file on root folder ( type copy .env.example .env if using command prompt Windows
  or cp .env.example .env if using terminal Ubuntu)
@@ -26,6 +26,3 @@ Copy .env.example file to .env file on root folder ( type copy .env.example .env
 
 Run php artisan migrate
 Run php artisan serve
-
-
-
